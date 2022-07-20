@@ -1,1 +1,33 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: smc-app
+  description: Supplier Management Center
+  links:
+    - url: https://smc-app-dev-ns.apps.projectscions.com/suppliermgmt/entry/ApplicationEntry?SSOID=600104283
+      title: Supplier Management Center
+      icon: dashboard
+  tags:
+    - penske-dev-team
+    - java
+    - spring
+    - web
+  annotations:
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=smc-app'
+spec:
+  type: service
+  lifecycle: dev-env
+  owner: core-dev-team
+  owner: core-smc-team
+  system: supplier-management-center
 
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: dev-env
+  title: Supplier Management Center
+  description: Supplier Management Center
+spec:
+  owner: core-dev-team
+  domain: backend-apps
