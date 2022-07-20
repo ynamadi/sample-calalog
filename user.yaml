@@ -1,0 +1,50 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: john-shiffler
+spec:
+  profile:
+    displayName: John Shiffler
+    email: john.shiffler@penske.com
+    picture: https://avatars.dicebear.com/api/avataaars/guest@example.com.svg?background=%23fff
+  memberOf: [core-dev-team]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: iswarya-balasubramanian
+spec:
+  profile:
+    displayName: Iswarya Balasubramanian
+    email: iswarya.balasubramanian@penske.com
+    picture: https://avatars.dicebear.com/api/avataaars/guest@example.com.svg?background=%23fff
+  memberOf: [core-dev-team]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: iswarya-balasubramanian
+spec:
+  profile:
+    displayName: Chandra Thondappa
+    email: chandra.thondappa@penske.com
+    picture: https://avatars.dicebear.com/api/avataaars/guest@example.com.svg?background=%23fff
+  memberOf: [core-dev-team]
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: core-dev-team
+  description: Core Dev Team
+spec:
+  type: team
+  profile:
+    displayName: Core Dev Team
+    email: core-dev-team@example.com
+    picture: https://avatars.dicebear.com/api/identicon/team-a@example.com.svg?background=%23fff
+  parent: core-dev-team
+  children: []
