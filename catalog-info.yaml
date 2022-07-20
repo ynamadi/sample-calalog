@@ -17,7 +17,6 @@ metadata:
 spec:
   type: service
   lifecycle: dev-env
-  owner: core-dev-team
   owner: core-smc-team
   system: supplier-management-center
 
