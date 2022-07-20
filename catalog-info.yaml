@@ -28,7 +28,7 @@ metadata:
   title: Supplier Management Center
   description: Supplier Management Center
 spec:
-  owner: core-dev-team
+  owner: core-smc-team
   domain: backend-apps
 
 ---
@@ -41,7 +41,7 @@ spec:
     displayName: John Shiffler
     email: john.shiffler@penske.com
     picture: https://avatars.dicebear.com/api/avataaars/guest@example.com.svg?background=%23fff
-  memberOf: [core-dev-team]
+  memberOf: [core-smc-team]
 
 ---
 apiVersion: backstage.io/v1alpha1
@@ -53,7 +53,7 @@ spec:
     displayName: Iswarya Balasubramanian
     email: iswarya.balasubramanian@penske.com
     picture: https://avatars.dicebear.com/api/avataaars/guest@example.com.svg?background=%23fff
-  memberOf: [core-dev-team]
+  memberOf: [core-smc-team]
 
 ---
 apiVersion: backstage.io/v1alpha1
@@ -65,13 +65,13 @@ spec:
     displayName: Chandra Thondappa
     email: chandra.thondappa@penske.com
     picture: https://avatars.dicebear.com/api/avataaars/guest@example.com.svg?background=%23fff
-  memberOf: [core-dev-team]
+  memberOf: [core-smc-team]
 
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: core-dev-team
+  name: core-smc-team
   description: Core Dev Team
 spec:
   type: team
@@ -79,5 +79,5 @@ spec:
     displayName: Core Dev Team
     email: core-dev-team@example.com
     picture: https://avatars.dicebear.com/api/identicon/team-a@example.com.svg?background=%23fff
-  parent: core-dev-team
+  parent: core-smc-team
   children: []
