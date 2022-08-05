@@ -4,7 +4,7 @@ metadata:
   name: smc-app
   description: Supplier Management Center
   links:
-    - url: https://smc-app-dev-ns.apps.tap.tanzu.projectscions.com/suppliermgmt/entry/ApplicationEntry?SSOID=600104283
+    - url: https://smc-app-stage-ns.apps.tap.tanzu.projectscions.com/suppliermgmt/entry/ApplicationEntry?SSOID=600104283
       title: Supplier Management Center
       icon: dashboard
   tags:
